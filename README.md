@@ -1,2 +1,2 @@
-# React---Js-Prac
+# React-Js-Prac
 practice
