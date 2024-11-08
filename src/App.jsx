@@ -5,6 +5,7 @@ import './App.css'
 import Prac from './Comp/Prac'
 import Crud from './Comp/Crud'
 import DynamicForm from './Comp/DynamicForm'
+import Cars24Post from './Comp/Cars24Post'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,8 @@ function App() {
   return (
     <>
   {/* <Crud/> */}
-  <DynamicForm/>
+  {/* <DynamicForm/> */}
+  <Cars24Post/>
     </>
   )
 }
