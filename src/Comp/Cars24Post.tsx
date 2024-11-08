@@ -78,7 +78,15 @@ function Cars24Post() {
   return (
     <div>
       <h1 style={{ textAlign: "center" }}>cars 24 post</h1>
-      <button onClick={refreshDataFunc}>Refresh Data</button>
+      <div  style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          marginBottom: "20px",
+        }}>
+      <button  onClick={refreshDataFunc}>Refresh Data</button>
+      </div>
+  
       <table
         border={1}
         style={{ width: "90%", margin: "auto", padding: "10px" }}
@@ -111,6 +119,7 @@ function Cars24Post() {
           alignItems: "center",
           justifyContent: "center",
           marginTop: "20px",
+          gap:"10px"
         }}
       >
         <button onClick={prevFunc}>Prev</button>
